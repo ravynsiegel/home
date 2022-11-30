@@ -82,10 +82,12 @@ a:hover, a#link1:hover, #link2:hover, #link3:hover {
 }
 
 #slides {
-    width: 100%;
+    width: 45vw;
 }
 
 #slides_container {
-    margin: auto;
-    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
