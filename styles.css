@@ -62,15 +62,16 @@ a:hover, a#link1:hover, #link2:hover, #link3:hover {
 #container {
     margin: auto;
     width: 40vw;
-    text-align: justify;
 }
 
 #prototypes {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 4rem;
+    gap: 1rem;
     padding-top: 2rem;
+    width: 40vw;
+    margin: auto;
 }
 
 #milestone_container, #placeholder_container1, #placeholder_container2 {
@@ -78,4 +79,13 @@ a:hover, a#link1:hover, #link2:hover, #link3:hover {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+
+#slides {
+    width: 100%;
+}
+
+#slides_container {
+    margin: auto;
+    width: 50vw;
 }
