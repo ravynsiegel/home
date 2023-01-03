@@ -1,23 +1,18 @@
 body {
     color: #444444;
-    font-size: 1.2rem;
-    letter-spacing: 0.02em;
-    line-height: 1.8rem;
-    font-family: 'Crimson Text', serif;
     margin: 0;
 }
 
 #nav {
+    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     width: 100vw;
-    border-bottom: 1px solid #444444;
 }
 
 #logo {
-    width: 1.5rem;
+    width: 2rem;
 }
 
 #milestone_img {
@@ -29,24 +24,23 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    padding: 0 0 0 1rem;
+    padding: 1rem 0 1rem 1rem;
 }
 
 #navlinks_container {
+    background-color: aqua;
     display: flex;
     flex-direction: row;
     gap: 6rem;
     padding: 0 1rem 0 0;
 }
 
-h1 {
-    font-size: 2rem;
+h1, h2, h3 {
     font-family: 'Crimson Pro', serif;
-    font-weight: normal;
 }
 
-a, a#link1, #link2, #link3 {
-    font-size: 1rem;
+a {
+    font-size: .8rem;
     color: #444444;
     text-decoration: none;
     letter-spacing: 0.08em;
@@ -60,8 +54,11 @@ a:hover, a#link1:hover, #link2:hover, #link3:hover {
 }
 
 #container {
+    background-color: aliceblue;
+    position: relative;
     margin: auto;
-    width: 40vw;
+    padding: 1rem 0 0 0;
+    width: 45vw;
 }
 
 #prototypes {
@@ -70,24 +67,36 @@ a:hover, a#link1:hover, #link2:hover, #link3:hover {
     justify-content: center;
     gap: 1rem;
     padding-top: 2rem;
-    width: 40vw;
+    width: 45vw;
     margin: auto;
 }
 
-#milestone_container, #placeholder_container1, #placeholder_container2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+#define {
+    line-height: 1.4rem;
+    font-size: .73rem;
+    font-family: Verdana;
+    text-align: left;
+    padding-bottom: 1rem;
 }
 
-#slides {
-    width: 45vw;
+p {
+    font-family: Verdana;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    text-align: left;
 }
 
-#slides_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#h1_milestone {
+    width: 85vw;
+    text-align: left;
+    font-size: 4.5rem;
+    letter-spacing: .04rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: auto;
+}
+
+#ms_container {
+    padding: 1rem 0 0 0;
+    width: 100vw;
 }
